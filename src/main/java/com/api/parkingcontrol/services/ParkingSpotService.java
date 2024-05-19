@@ -1,11 +1,8 @@
 package com.api.parkingcontrol.services;
 
-import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-import org.hibernate.query.Page;
-import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.api.parkingcontrol.models.ParkingSpotModel;
